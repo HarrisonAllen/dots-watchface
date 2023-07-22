@@ -1,0 +1,35 @@
+{
+  "name": "dots",
+  "author": "Harrison Allen",
+  "version": "1.0.0",
+  "keywords": ["pebble-app"],
+  "private": true,
+  "dependencies": {},
+  "pebble": {
+    "displayName": "Dots",
+    "uuid": "a6ffdc3d-f82a-4c23-9f0e-bfdde0577c86",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "aplite",
+      "basalt",
+      "chalk",
+      "diorite"
+    ],
+    "watchapp": {
+      "watchface": false
+    },
+    "messageKeys": [
+      "dummy"
+    ],
+    "resources": {
+      "media": [
+        {
+          "type": "raw",
+          "name": "DATA_DOT_TILESHEET",
+          "file": "data/DotTilesheet.bin"
+        }
+      ]
+    }
+  }
+}
